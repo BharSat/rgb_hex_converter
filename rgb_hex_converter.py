@@ -1,4 +1,5 @@
 def hex_to_rgb(hexadecimal=('#', 'F', 'F', '0', '6', 'A', 'a')):
+    # convert a hexadecimal code to rgb code
     hexadecimal = list(hexadecimal)
     hexadecimal = hexadecimal[1:]
     count = 0
@@ -23,6 +24,7 @@ def hex_to_rgb(hexadecimal=('#', 'F', 'F', '0', '6', 'A', 'a')):
 
 
 def rgb_to_hex(rgb=(200, 19, 255)):
+    # conver an rgb code to hexadecimal code
     final = []
     for i in rgb:
         py_hex = hex(i)
